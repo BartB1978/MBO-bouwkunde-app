@@ -4,7 +4,7 @@ import './InteractiveControls.css'
 export interface BuildingParams {
   verdiepingen: number
   oppervlakte: number
-  constructieType: 'stapelbouw' | 'gietbouw' | 'houtskeletbouw' | 'staalbouw' | 'prefab betonbouw'
+  constructieType: 'hout' | 'beton' | 'staal'
   isolatie: 'basis' | 'gemiddeld' | 'hoog'
   budget: number
 }
