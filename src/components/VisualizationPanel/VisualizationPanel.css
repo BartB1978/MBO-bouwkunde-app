@@ -78,19 +78,29 @@
   }
 }
 
-.building-floor.hout {
-  background-color: #fef3c7;
-  border-color: #f59e0b;
+.building-floor.stapelbouw {
+  background-color: #fed7aa;
+  border-color: #ea580c;
 }
 
-.building-floor.beton {
+.building-floor.gietbouw {
   background-color: #e5e7eb;
   border-color: #6b7280;
 }
 
-.building-floor.staal {
+.building-floor.houtskeletbouw {
+  background-color: #fef3c7;
+  border-color: #f59e0b;
+}
+
+.building-floor.staalbouw {
   background-color: #dbeafe;
   border-color: #3b82f6;
+}
+
+.building-floor.prefab-betonbouw {
+  background-color: #f3e8ff;
+  border-color: #9333ea;
 }
 
 .floor-label {

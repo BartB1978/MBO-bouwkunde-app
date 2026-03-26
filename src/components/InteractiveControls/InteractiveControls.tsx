@@ -4,8 +4,10 @@ import './InteractiveControls.css'
 export interface BuildingParams {
   verdiepingen: number
   oppervlakte: number
-  constructieType: 'hout' | 'beton' | 'staal'
-  isolatie: 'basis' | 'gemiddeld' | 'hoog'
+  constructieType: 'stapelbouw' | 'gietbouw' | 'houtskeletbouw' | 'staalbouw' | 'prefab-betonbouw'
+  isolatieVloer: number
+  isolatieWanden: number
+  isolatieDak: number
   budget: number
 }
 
@@ -102,25 +104,72 @@ function InteractiveControls({ params, onChange, onReset }: InteractiveControlsP
             onChange={handleSelectChange('constructieType')}
             className="control-select"
           >
-            <option value="hout">Houtskelet</option>
-            <option value="beton">Betonnen draagconstructie</option>
-            <option value="staal">Staalframe</option>
+            <option value="stapelbouw">Stapelbouw</option>
+            <option value="gietbouw">Gietbouw</option>
+            <option value="houtskeletbouw">Houtskeletbouw</option>
+            <option value="staalbouw">Staalbouw</option>
+            <option value="prefab-betonbouw">Prefab betonbouw</option>
           </select>
         </div>
 
         <div className="control-group">
           <label className="control-label">
-            <span className="label-text">Isolatieniveau</span>
+            <span className="label-text">Isolatie vloer (Rc-waarde)</span>
+            <span className="label-value">{params.isolatieVloer.toFixed(1)}</span>
           </label>
-          <select
-            value={params.isolatie}
-            onChange={handleSelectChange('isolatie')}
-            className="control-select"
-          >
-            <option value="basis">Basis (Rc 2.5)</option>
-            <option value="gemiddeld">Gemiddeld (Rc 4.5)</option>
-            <option value="hoog">Hoog (Rc 6.0+)</option>
-          </select>
+          <input
+            type="range"
+            min="1.0"
+            max="15.0"
+            step="0.1"
+            value={params.isolatieVloer}
+            onChange={handleSliderChange('isolatieVloer')}
+            className="control-slider"
+          />
+          <div className="slider-marks">
+            <span>Rc 1.0</span>
+            <span>Rc 15.0</span>
+          </div>
+        </div>
+
+        <div className="control-group">
+          <label className="control-label">
+            <span className="label-text">Isolatie wanden (Rc-waarde)</span>
+            <span className="label-value">{params.isolatieWanden.toFixed(1)}</span>
+          </label>
+          <input
+            type="range"
+            min="1.0"
+            max="15.0"
+            step="0.1"
+            value={params.isolatieWanden}
+            onChange={handleSliderChange('isolatieWanden')}
+            className="control-slider"
+          />
+          <div className="slider-marks">
+            <span>Rc 1.0</span>
+            <span>Rc 15.0</span>
+          </div>
+        </div>
+
+        <div className="control-group">
+          <label className="control-label">
+            <span className="label-text">Isolatie dak (Rc-waarde)</span>
+            <span className="label-value">{params.isolatieDak.toFixed(1)}</span>
+          </label>
+          <input
+            type="range"
+            min="1.0"
+            max="15.0"
+            step="0.1"
+            value={params.isolatieDak}
+            onChange={handleSliderChange('isolatieDak')}
+            className="control-slider"
+          />
+          <div className="slider-marks">
+            <span>Rc 1.0</span>
+            <span>Rc 15.0</span>
+          </div>
         </div>
       </div>
     </div>

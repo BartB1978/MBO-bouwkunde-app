@@ -10,18 +10,23 @@ function VisualizationPanel({ params }: VisualizationPanelProps) {
   const kostenPerM2 = (params.budget * 10000) / totalOppervlakte
 
   const constructieKosten = {
-    hout: 1200,
-    beton: 1500,
-    staal: 1800
+    stapelbouw: 1250,
+    gietbouw: 1450,
+    houtskeletbouw: 1100,
+    staalbouw: 1650,
+    'prefab-betonbouw': 1550
   }
 
-  const isolatieKosten = {
-    basis: 50,
-    gemiddeld: 100,
-    hoog: 150
-  }
+  const kostenPerRcPerM2Vloer = 15
+  const kostenPerRcPerM2Wanden = 20
+  const kostenPerRcPerM2Dak = 18
 
-  const geschatteKosten = (constructieKosten[params.constructieType] + isolatieKosten[params.isolatie]) * totalOppervlakte
+  const isolatieKostenVloer = params.isolatieVloer * kostenPerRcPerM2Vloer * params.oppervlakte
+  const isolatieKostenWanden = params.isolatieWanden * kostenPerRcPerM2Wanden * (params.oppervlakte * 0.8) * params.verdiepingen
+  const isolatieKostenDak = params.isolatieDak * kostenPerRcPerM2Dak * params.oppervlakte
+  const totaleIsolatieKosten = isolatieKostenVloer + isolatieKostenWanden + isolatieKostenDak
+
+  const geschatteKosten = (constructieKosten[params.constructieType] * totalOppervlakte) + totaleIsolatieKosten
   const budgetRatio = geschatteKosten / (params.budget * 10000)
 
   return (
@@ -31,22 +36,33 @@ function VisualizationPanel({ params }: VisualizationPanelProps) {
       <div className="building-visualization">
         <div className="building-container">
           <div className="building-structure">
-            {Array.from({ length: params.verdiepingen }).map((_, index) => (
+            <div className="building-foundation">
+              <div className="foundation-label">Fundering</div>
+            </div>
+            <div
+              key="bg"
+              className={`building-floor ${params.constructieType}`}
+              style={{
+                width: `${Math.min(100, (params.oppervlakte / 5))}%`,
+                animationDelay: '0s'
+              }}
+            >
+              <div className="floor-label">BG</div>
+              <div className="floor-area">{params.oppervlakte}m²</div>
+            </div>
+            {Array.from({ length: params.verdiepingen - 1 }).map((_, index) => (
               <div
                 key={index}
                 className={`building-floor ${params.constructieType}`}
                 style={{
                   width: `${Math.min(100, (params.oppervlakte / 5))}%`,
-                  animationDelay: `${index * 0.1}s`
+                  animationDelay: `${(index + 1) * 0.1}s`
                 }}
               >
-                <div className="floor-label">V{params.verdiepingen - index}</div>
+                <div className="floor-label">V{index + 1}</div>
                 <div className="floor-area">{params.oppervlakte}m²</div>
               </div>
             ))}
-            <div className="building-foundation">
-              <div className="foundation-label">Fundering</div>
-            </div>
           </div>
         </div>
 
@@ -64,9 +80,11 @@ function VisualizationPanel({ params }: VisualizationPanelProps) {
             <div className="spec-content">
               <div className="spec-label">Constructie</div>
               <div className="spec-value">
-                {params.constructieType === 'hout' && 'Houtskelet'}
-                {params.constructieType === 'beton' && 'Beton'}
-                {params.constructieType === 'staal' && 'Staalframe'}
+                {params.constructieType === 'stapelbouw' && 'Stapelbouw'}
+                {params.constructieType === 'gietbouw' && 'Gietbouw'}
+                {params.constructieType === 'houtskeletbouw' && 'Houtskeletbouw'}
+                {params.constructieType === 'staalbouw' && 'Staalbouw'}
+                {params.constructieType === 'prefab-betonbouw' && 'Prefab beton'}
               </div>
             </div>
           </div>
@@ -76,9 +94,9 @@ function VisualizationPanel({ params }: VisualizationPanelProps) {
             <div className="spec-content">
               <div className="spec-label">Isolatie</div>
               <div className="spec-value">
-                {params.isolatie === 'basis' && 'Basis (Rc 2.5)'}
-                {params.isolatie === 'gemiddeld' && 'Gemiddeld (Rc 4.5)'}
-                {params.isolatie === 'hoog' && 'Hoog (Rc 6.0+)'}
+                Vloer: Rc {params.isolatieVloer.toFixed(1)}<br />
+                Wanden: Rc {params.isolatieWanden.toFixed(1)}<br />
+                Dak: Rc {params.isolatieDak.toFixed(1)}
               </div>
             </div>
           </div>

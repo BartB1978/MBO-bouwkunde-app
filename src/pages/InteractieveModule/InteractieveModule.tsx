@@ -7,8 +7,10 @@ import FeedbackPanel from '../../components/FeedbackPanel/FeedbackPanel'
 const DEFAULT_PARAMS: BuildingParams = {
   verdiepingen: 3,
   oppervlakte: 150,
-  constructieType: 'beton',
-  isolatie: 'gemiddeld',
+  constructieType: 'stapelbouw',
+  isolatieVloer: 3.5,
+  isolatieWanden: 4.5,
+  isolatieDak: 6.0,
   budget: 50
 }
 
@@ -19,7 +21,31 @@ function InteractieveModule() {
     const saved = localStorage.getItem(STORAGE_KEY)
     if (saved) {
       try {
-        return JSON.parse(saved)
+        const parsed = JSON.parse(saved)
+
+        if ('isolatie' in parsed && typeof parsed.isolatie === 'string') {
+          const isolatieMap: Record<string, { vloer: number, wanden: number, dak: number }> = {
+            'basis': { vloer: 2.5, wanden: 2.5, dak: 3.5 },
+            'gemiddeld': { vloer: 3.5, wanden: 4.5, dak: 6.0 },
+            'hoog': { vloer: 5.0, wanden: 6.0, dak: 7.0 }
+          }
+          const isolatieValues = isolatieMap[parsed.isolatie] || isolatieMap['gemiddeld']
+
+          return {
+            ...parsed,
+            isolatieVloer: isolatieValues.vloer,
+            isolatieWanden: isolatieValues.wanden,
+            isolatieDak: isolatieValues.dak
+          }
+        }
+
+        if (typeof parsed.isolatieVloer === 'number' &&
+            typeof parsed.isolatieWanden === 'number' &&
+            typeof parsed.isolatieDak === 'number') {
+          return parsed
+        }
+
+        return DEFAULT_PARAMS
       } catch {
         return DEFAULT_PARAMS
       }
