@@ -1,0 +1,119 @@
+.stage-timeline {
+  margin: 2rem 0;
+}
+
+.timeline-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+}
+
+.timeline-container {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  overflow-x: auto;
+  padding: 1rem 0;
+}
+
+.timeline-item-wrapper {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  min-width: 100px;
+  background-color: var(--bg-tertiary);
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-md);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.timeline-item:hover {
+  background-color: var(--bg-primary);
+  border-color: var(--stage-color);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.timeline-item.current {
+  background-color: var(--bg-primary);
+  border-color: var(--stage-color);
+  border-width: 3px;
+  box-shadow: var(--shadow-lg);
+}
+
+.timeline-item.current::after {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 20px;
+  height: 20px;
+  background-color: var(--stage-color);
+  border-radius: 50%;
+  border: 3px solid var(--bg-secondary);
+}
+
+.timeline-item.past {
+  opacity: 0.7;
+}
+
+.timeline-icon {
+  font-size: 2rem;
+}
+
+.timeline-content {
+  text-align: center;
+}
+
+.timeline-number {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-light);
+  margin-bottom: 0.25rem;
+}
+
+.timeline-name {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.timeline-connector {
+  width: 40px;
+  height: 3px;
+  background-color: var(--border-color);
+  flex-shrink: 0;
+}
+
+.timeline-connector.past {
+  background-color: var(--primary-color);
+}
+
+@media (max-width: 768px) {
+  .timeline-container {
+    justify-content: flex-start;
+  }
+
+  .timeline-item {
+    min-width: 80px;
+    padding: 0.75rem;
+  }
+
+  .timeline-icon {
+    font-size: 1.5rem;
+  }
+
+  .timeline-connector {
+    width: 20px;
+  }
+}

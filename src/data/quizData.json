@@ -1,0 +1,153 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz-so-basis",
+      "title": "Schets Ontwerp - Basiskennis",
+      "stadium": "SO",
+      "beschrijving": "Test je kennis over de eerste fase van het bouwproces",
+      "vragen": [
+        {
+          "id": "q1",
+          "type": "meerkeuze",
+          "vraag": "Wat is het belangrijkste doel van het Schets Ontwerp (SO)?",
+          "opties": [
+            "Het aanvragen van de bouwvergunning",
+            "Het verkennen van mogelijkheden en creëren van een eerste visie",
+            "Het maken van gedetailleerde werktekeningen",
+            "Het berekenen van de constructie"
+          ],
+          "correctAntwoord": 1,
+          "uitleg": "Het Schets Ontwerp is de creatieve fase waarin verschillende oplossingen worden verkend en een eerste visie wordt gecreëerd. Vergunningen en detaillering komen later.",
+          "punten": 10
+        },
+        {
+          "id": "q2",
+          "type": "meerkeuze",
+          "vraag": "Welke activiteit hoort NIET bij het Schets Ontwerp?",
+          "opties": [
+            "Inventarisatie van wensen en eisen",
+            "Onderzoek naar locatie en omgeving",
+            "Bouwvergunning aanvragen",
+            "Globale kostenraming"
+          ],
+          "correctAntwoord": 2,
+          "uitleg": "De bouwvergunning wordt pas aangevraagd tijdens het Definitief Ontwerp (DO), wanneer alle details zijn uitgewerkt.",
+          "punten": 10
+        },
+        {
+          "id": "q3",
+          "type": "open",
+          "vraag": "Noem drie belangrijke documenten of onderzoeken die nodig zijn in de SO-fase.",
+          "voorbeeldAntwoorden": [
+            "Programma van Eisen",
+            "Locatieonderzoek",
+            "Bodemonderzoek",
+            "Bestemmingsplan",
+            "Omgevingsanalyse"
+          ],
+          "uitleg": "In de SO-fase zijn onder andere het Programma van Eisen, locatieonderzoek, bestemmingsplan en omgevingsanalyse belangrijk om te bepalen wat er mogelijk is.",
+          "punten": 15
+        }
+      ]
+    },
+    {
+      "id": "quiz-vo-do",
+      "title": "Voorlopig en Definitief Ontwerp",
+      "stadium": "VO-DO",
+      "beschrijving": "Test je kennis over de VO en DO fasen",
+      "vragen": [
+        {
+          "id": "q4",
+          "type": "meerkeuze",
+          "vraag": "In welke fase wordt de bouwvergunning aangevraagd?",
+          "opties": [
+            "Schets Ontwerp (SO)",
+            "Voorlopig Ontwerp (VO)",
+            "Definitief Ontwerp (DO)",
+            "Technisch Ontwerp (TO)"
+          ],
+          "correctAntwoord": 2,
+          "uitleg": "De bouwvergunning wordt aangevraagd tijdens het Definitief Ontwerp (DO), wanneer alle details zijn uitgewerkt en het ontwerp gereed is voor vergunningverlening.",
+          "punten": 10
+        },
+        {
+          "id": "q5",
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er in het Voorlopig Ontwerp (VO)?",
+          "opties": [
+            "Alleen schetsen maken",
+            "De hoofdlijnen vastleggen met technische details",
+            "Werktekeningen voor de aannemer maken",
+            "Het gebouw opleveren"
+          ],
+          "correctAntwoord": 1,
+          "uitleg": "In het VO worden de hoofdlijnen van het gekozen concept vastgelegd met meer technische details zoals plattegronden, gevels en materiaalkeuzes.",
+          "punten": 10
+        },
+        {
+          "id": "q6",
+          "type": "open",
+          "vraag": "Waarom is een gedetailleerde kostenraming belangrijk in de VO-fase?",
+          "voorbeeldAntwoorden": [
+            "Om te controleren of het binnen budget blijft",
+            "Om financiering te regelen",
+            "Om keuzes te kunnen maken",
+            "Om de opdrachtgever te informeren"
+          ],
+          "uitleg": "Een gedetailleerde kostenraming in de VO-fase is cruciaal om te controleren of het ontwerp binnen budget blijft en om weloverwogen keuzes te maken voordat het definitief wordt.",
+          "punten": 15
+        }
+      ]
+    },
+    {
+      "id": "quiz-constructie",
+      "title": "Constructietypes en Materialen",
+      "stadium": "TO",
+      "beschrijving": "Test je kennis over verschillende constructietypes",
+      "vragen": [
+        {
+          "id": "q7",
+          "type": "meerkeuze",
+          "vraag": "Welk constructietype is het meest duurzaam qua CO₂-uitstoot?",
+          "opties": [
+            "Betonconstructie",
+            "Staalframe",
+            "Houtskeletbouw",
+            "Alle zijn even duurzaam"
+          ],
+          "correctAntwoord": 2,
+          "uitleg": "Houtskeletbouw heeft de laagste CO₂-uitstoot omdat hout CO₂ opslaat tijdens groei. Beton heeft de hoogste uitstoot door cementproductie.",
+          "punten": 10
+        },
+        {
+          "id": "q8",
+          "type": "meerkeuze",
+          "vraag": "Wat is een voordeel van staalframebouw?",
+          "opties": [
+            "Lage kosten",
+            "Geen brandwerendheid nodig",
+            "Grote overspanningen mogelijk",
+            "Korte bouwtijd"
+          ],
+          "correctAntwoord": 2,
+          "uitleg": "Staalframebouw maakt grote overspanningen mogelijk zonder tussensteunen, wat flexibiliteit biedt in ruimte-indeling. Wel is brandwerendheid belangrijk.",
+          "punten": 10
+        },
+        {
+          "id": "q9",
+          "type": "open",
+          "vraag": "Noem twee aandachtspunten bij houtskeletbouw.",
+          "voorbeeldAntwoorden": [
+            "Vochtbeheersing",
+            "Brandveiligheid",
+            "Hoogte beperking",
+            "Geluidisolatie",
+            "Kruip preventie"
+          ],
+          "uitleg": "Bij houtskeletbouw zijn vochtbeheersing en brandveiligheid belangrijke aandachtspunten. Ook is er meestal een beperking in het aantal verdiepingen.",
+          "punten": 15
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "stadia": [
+    {
+      "id": "SO",
+      "naam": "Schets Ontwerp",
+      "code": "SO",
+      "beschrijving": "In het Schets Ontwerp (SO) worden de eerste ideeën en concepten voor het bouwproject verkend. Dit is de creatieve fase waarin verschillende oplossingen worden geschetst en besproken met de opdrachtgever.",
+      "icon": "✏️",
+      "color": "#3b82f6",
+      "volgnummer": 1,
+      "doel": "Verkennen van mogelijkheden en creëren van een eerste visie op het project",
+      "belangrijkePunten": [
+        "Inventarisatie van wensen en eisen opdrachtgever",
+        "Onderzoek naar locatie en omgeving",
+        "Eerste ruimtelijke schets",
+        "Globale kostenraming",
+        "Verkenning van verschillende varianten"
+      ]
+    },
+    {
+      "id": "VO",
+      "naam": "Voorlopig Ontwerp",
+      "code": "VO",
+      "beschrijving": "Het Voorlopig Ontwerp (VO) is een verdere uitwerking van het gekozen schetsontwerp. Hierin worden de hoofdlijnen van het ontwerp vastgelegd met meer technische details en concrete keuzes.",
+      "icon": "📐",
+      "color": "#8b5cf6",
+      "volgnummer": 2,
+      "doel": "Vastleggen van de hoofdlijnen en verdere uitwerking van het gekozen concept",
+      "belangrijkePunten": [
+        "Uitwerking plattegronden en gevels",
+        "Materiaalkeuzes en constructieprincipes",
+        "Stedenbouwkundige inpassing",
+        "Gedetailleerde kostenraming",
+        "Overleg met gemeente en instanties"
+      ]
+    },
+    {
+      "id": "DO",
+      "naam": "Definitief Ontwerp",
+      "code": "DO",
+      "beschrijving": "In het Definitief Ontwerp (DO) worden alle aspecten van het bouwproject tot in detail uitgewerkt. Dit ontwerp dient als basis voor de vergunningaanvraag en bevat alle technische specificaties.",
+      "icon": "📋",
+      "color": "#06b6d4",
+      "volgnummer": 3,
+      "doel": "Volledig uitgewerkt ontwerp gereed voor vergunningaanvraag",
+      "belangrijkePunten": [
+        "Definitieve tekeningen en detaillering",
+        "Volledige materiaalbeschrijvingen",
+        "Constructieve berekeningen",
+        "Installatieontwerp",
+        "Bouwvergunning aanvraag"
+      ]
+    },
+    {
+      "id": "TO",
+      "naam": "Technisch Ontwerp",
+      "code": "TO",
+      "beschrijving": "Het Technisch Ontwerp (TO) bevat alle technische uitwerkingen die nodig zijn voor de realisatie. Dit omvat gedetailleerde constructietekeningen, installatieplannen en technische specificaties.",
+      "icon": "🔧",
+      "color": "#10b981",
+      "volgnummer": 4,
+      "doel": "Technische uitwerking voor uitvoering gereed maken",
+      "belangrijkePunten": [
+        "Constructieve details en knooppunten",
+        "Installatietechnische uitwerking",
+        "Bouwfysische berekeningen",
+        "Energieprestatieberekening",
+        "Bestekstekeningen voorbereiden"
+      ]
+    },
+    {
+      "id": "UO",
+      "naam": "Uitvoerings Ontwerp",
+      "code": "UO",
+      "beschrijving": "Het Uitvoerings Ontwerp (UO) bevat alle werkvoorbereiding en uitvoeringsgerichte tekeningen. Dit is het ontwerp waarmee daadwerkelijk gebouwd gaat worden op de bouwplaats.",
+      "icon": "🏗️",
+      "color": "#f59e0b",
+      "volgnummer": 5,
+      "doel": "Directe bouwgerichte tekeningen en instructies voor uitvoering",
+      "belangrijkePunten": [
+        "Werktekeningen en details",
+        "Materiaalbestellingen",
+        "Planning en fasering",
+        "Werkvoorbereiding",
+        "Uitvoeringsspecificaties"
+      ]
+    },
+    {
+      "id": "OPLEV",
+      "naam": "Oplevering",
+      "code": "OPLEV",
+      "beschrijving": "De Oplevering is het moment waarop het project wordt overgedragen aan de opdrachtgever. Alle werkzaamheden zijn afgerond en het gebouw is klaar voor gebruik.",
+      "icon": "✅",
+      "color": "#14b8a6",
+      "volgnummer": 6,
+      "doel": "Afronding en overdracht van het voltooide project",
+      "belangrijkePunten": [
+        "Oplevering en eindcontrole",
+        "Oplossen van gebreken",
+        "Overdracht documentatie",
+        "Instructie aan gebruiker",
+        "Garantiecertificaten en gebruiksaanwijzingen"
+      ]
+    },
+    {
+      "id": "ONDER",
+      "naam": "Onderhoud",
+      "code": "ONDER",
+      "beschrijving": "Onderhoud omvat alle werkzaamheden na oplevering om het gebouw in goede staat te houden. Een goed onderhoudsplan verlengt de levensduur en behoudt de waarde van het gebouw.",
+      "icon": "🔨",
+      "color": "#6366f1",
+      "volgnummer": 7,
+      "doel": "Beheer en onderhoud voor langdurige kwaliteit",
+      "belangrijkePunten": [
+        "Onderhoudsplan opstellen",
+        "Inspectierapporten",
+        "Preventief onderhoud",
+        "Correctief onderhoud",
+        "Levensduurverlenging"
+      ]
+    }
+  ],
+  "werkprocessen": [
+    {
+      "id": "WP01",
+      "naam": "Programma van Eisen opstellen",
+      "stadiumId": "SO",
+      "volgnummer": 1,
+      "beschrijving": "Het inventariseren en vastleggen van alle wensen, eisen en randvoorwaarden van de opdrachtgever voor het bouwproject.",
+      "icon": "📝",
+      "activiteiten": [
+        "Gesprekken met opdrachtgever",
+        "Inventariseren functionele eisen",
+        "Bepalen budget en planning",
+        "Vastleggen technische randvoorwaarden"
+      ]
+    },
+    {
+      "id": "WP02",
+      "naam": "Locatie- en omgevingsanalyse",
+      "stadiumId": "SO",
+      "volgnummer": 2,
+      "beschrijving": "Onderzoek naar de bouwlocatie, omgeving, bestemmingsplan en andere relevante aspecten die het ontwerp beïnvloeden.",
+      "icon": "🗺️",
+      "activiteiten": [
+        "Bestuderen bestemmingsplan",
+        "Omgevingsanalyse",
+        "Bodemonderzoek",
+        "Bereikbaarheid en infrastructuur"
+      ]
+    },
+    {
+      "id": "WP03",
+      "naam": "Conceptschetsen maken",
+      "stadiumId": "SO",
+      "volgnummer": 3,
+      "beschrijving": "Het creëren van eerste schetsen en visualisaties van mogelijke ontwerprichtingen en concepten.",
+      "icon": "✏️",
+      "activiteiten": [
+        "Vrije schetsen maken",
+        "Verschillende varianten verkennen",
+        "Ruimtelijke opzet bepalen",
+        "Presentatie aan opdrachtgever"
+      ]
+    },
+    {
+      "id": "WP04",
+      "naam": "Plattegronden uitwerken",
+      "stadiumId": "VO",
+      "volgnummer": 4,
+      "beschrijving": "Gedetailleerde uitwerking van plattegronden met exacte maten, ruimte-indelingen en functionele zones.",
+      "icon": "📐",
+      "activiteiten": [
+        "Schaal 1:100 plattegronden",
+        "Maatvoering toevoegen",
+        "Ruimtefuncties aangeven",
+        "Meubelindeling schetsen"
+      ]
+    },
+    {
+      "id": "WP05",
+      "naam": "Gevels en doorsneden tekenen",
+      "stadiumId": "VO",
+      "volgnummer": 5,
+      "beschrijving": "Uitwerking van gevels en doorsneden om de verticale opbouw en uitstraling van het gebouw te bepalen.",
+      "icon": "🏛️",
+      "activiteiten": [
+        "Gevelaanzichten tekenen",
+        "Doorsneden maken",
+        "Hoogtematen bepalen",
+        "Gevelmaterialen kiezen"
+      ]
+    },
+    {
+      "id": "WP06",
+      "naam": "Constructieprincipe bepalen",
+      "stadiumId": "VO",
+      "volgnummer": 6,
+      "beschrijving": "Kiezen van het draagconstructieprincipe en globale opzet van de constructie.",
+      "icon": "🏗️",
+      "activiteiten": [
+        "Draagconstructie bepalen",
+        "Funderingswijze kiezen",
+        "Vloer- en daksysteem selecteren",
+        "Overleg met constructeur"
+      ]
+    },
+    {
+      "id": "WP07",
+      "naam": "Definitieve tekeningen maken",
+      "stadiumId": "DO",
+      "volgnummer": 7,
+      "beschrijving": "Alle tekeningen definitief uitwerken volgens normen en richtlijnen voor de vergunningaanvraag.",
+      "icon": "📋",
+      "activiteiten": [
+        "Plattegronden definitief maken",
+        "Gevels en doorsneden afwerken",
+        "Situatietekening",
+        "Detaillering toevoegen"
+      ]
+    },
+    {
+      "id": "WP08",
+      "naam": "Bouwvergunning aanvragen",
+      "stadiumId": "DO",
+      "volgnummer": 8,
+      "beschrijving": "Het indienen van de vergunningaanvraag bij de gemeente met alle benodigde documenten en tekeningen.",
+      "icon": "📄",
+      "activiteiten": [
+        "Aanvraagformulier invullen",
+        "Tekeningen bundelen",
+        "Berekeningen toevoegen",
+        "Indienen bij gemeente"
+      ]
+    },
+    {
+      "id": "WP09",
+      "naam": "Materiaalkeuze en specificaties",
+      "stadiumId": "DO",
+      "volgnummer": 9,
+      "beschrijving": "Definitieve keuze van bouwmaterialen en het opstellen van gedetailleerde specificaties.",
+      "icon": "🧱",
+      "activiteiten": [
+        "Materiaalstaten opstellen",
+        "Technische specificaties",
+        "Duurzaamheidseisen",
+        "Leveranciers selecteren"
+      ]
+    },
+    {
+      "id": "WP10",
+      "naam": "Constructieve berekeningen",
+      "stadiumId": "TO",
+      "volgnummer": 10,
+      "beschrijving": "Gedetailleerde berekeningen van de draagconstructie volgens geldende normen en regelgeving.",
+      "icon": "🔢",
+      "activiteiten": [
+        "Lastberekeningen",
+        "Stabiliteitsberekeningen",
+        "Fundering dimensioneren",
+        "Toetsing aan normen"
+      ]
+    },
+    {
+      "id": "WP11",
+      "naam": "Installaties ontwerpen",
+      "stadiumId": "TO",
+      "volgnummer": 11,
+      "beschrijving": "Ontwerp van alle gebouwinstallaties zoals elektra, sanitair, verwarming en ventilatie.",
+      "icon": "⚡",
+      "activiteiten": [
+        "Elektra-installatie",
+        "Sanitair en leidingwerk",
+        "Verwarming en ventilatie",
+        "Duurzame energiesystemen"
+      ]
+    },
+    {
+      "id": "WP12",
+      "naam": "Detailtekeningen maken",
+      "stadiumId": "TO",
+      "volgnummer": 12,
+      "beschrijving": "Uitwerking van constructieve details en knooppunten op grote schaal.",
+      "icon": "🔍",
+      "activiteiten": [
+        "Details schaal 1:5 / 1:1",
+        "Knooppuntdetails",
+        "Aansluitdetails",
+        "Afwerkingsdetails"
+      ]
+    },
+    {
+      "id": "WP13",
+      "naam": "Bestek en werkbeschrijving",
+      "stadiumId": "UO",
+      "volgnummer": 13,
+      "beschrijving": "Opstellen van het bestek met gedetailleerde werkbeschrijvingen voor aannemers.",
+      "icon": "📖",
+      "activiteiten": [
+        "Werkbeschrijvingen opstellen",
+        "RAW-bestek",
+        "Hoeveelheden berekenen",
+        "Uitvoeringseisen beschrijven"
+      ]
+    },
+    {
+      "id": "WP14",
+      "naam": "Werktekeningen produceren",
+      "stadiumId": "UO",
+      "volgnummer": 14,
+      "beschrijving": "Het maken van uitvoeringstekeningen die direct op de bouwplaats gebruikt kunnen worden.",
+      "icon": "📐",
+      "activiteiten": [
+        "Werktekeningen 1:50 / 1:20",
+        "Maatvoering en hoogtematen",
+        "Uitvoeringsdetails",
+        "Revisietekeningen bijhouden"
+      ]
+    },
+    {
+      "id": "WP15",
+      "naam": "Planning en fasering",
+      "stadiumId": "UO",
+      "volgnummer": 15,
+      "beschrijving": "Opstellen van een gedetailleerde bouwplanning en fasering van werkzaamheden.",
+      "icon": "📅",
+      "activiteiten": [
+        "Tijdschema opstellen",
+        "Kritische pad bepalen",
+        "Fasering uitwerken",
+        "Logistiek plannen"
+      ]
+    },
+    {
+      "id": "WP16",
+      "naam": "Bouwbegeleiding",
+      "stadiumId": "UO",
+      "volgnummer": 16,
+      "beschrijving": "Begeleiding van de uitvoering op de bouwplaats en toezicht op de kwaliteit.",
+      "icon": "👷",
+      "activiteiten": [
+        "Bouwvergaderingen",
+        "Controle op tekeningen",
+        "Kwaliteitstoezicht",
+        "Wijzigingen verwerken"
+      ]
+    },
+    {
+      "id": "WP17",
+      "naam": "Oplevering en eindcontrole",
+      "stadiumId": "OPLEV",
+      "volgnummer": 17,
+      "beschrijving": "Finale controle en officiële oplevering van het voltooide bouwwerk aan de opdrachtgever.",
+      "icon": "✅",
+      "activiteiten": [
+        "Pre-oplevering uitvoeren",
+        "Puntlijst opstellen",
+        "Gebreken herstellen",
+        "Officiële oplevering"
+      ]
+    },
+    {
+      "id": "WP18",
+      "naam": "Documentatie en as-built",
+      "stadiumId": "OPLEV",
+      "volgnummer": 18,
+      "beschrijving": "Verzamelen en overdragen van alle documentatie inclusief as-built tekeningen.",
+      "icon": "📚",
+      "activiteiten": [
+        "As-built tekeningen",
+        "Garantiecertificaten",
+        "Gebruiksaanwijzingen",
+        "Onderhoudsinstructies"
+      ]
+    },
+    {
+      "id": "WP19",
+      "naam": "Gebruikersinstructie",
+      "stadiumId": "OPLEV",
+      "volgnummer": 19,
+      "beschrijving": "Instructie en overdracht aan de gebruiker over bediening en onderhoud van het gebouw.",
+      "icon": "👥",
+      "activiteiten": [
+        "Rondleiding geven",
+        "Installaties uitleggen",
+        "Onderhoud bespreken",
+        "Contactpersonen doorgeven"
+      ]
+    },
+    {
+      "id": "WP20",
+      "naam": "Onderhoudsplan opstellen",
+      "stadiumId": "ONDER",
+      "volgnummer": 20,
+      "beschrijving": "Opstellen van een meerjarig onderhoudsplan voor het gebouw.",
+      "icon": "📋",
+      "activiteiten": [
+        "Inventarisatie onderdelen",
+        "Onderhoudsfrequentie bepalen",
+        "Kostenbegroting maken",
+        "Planning op lange termijn"
+      ]
+    },
+    {
+      "id": "WP21",
+      "naam": "Inspectie en onderhoud uitvoeren",
+      "stadiumId": "ONDER",
+      "volgnummer": 21,
+      "beschrijving": "Uitvoeren van periodieke inspecties en onderhoudswerkzaamheden.",
+      "icon": "🔨",
+      "activiteiten": [
+        "Jaarlijkse inspectie",
+        "Preventief onderhoud",
+        "Correctief onderhoud",
+        "Rapportages maken"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "topics": [
+    {
+      "id": "programma-eisen",
+      "titel": "Programma van Eisen",
+      "werkproces": "WP01",
+      "stadium": "SO",
+      "startVraag": "Stel je voor dat een opdrachtgever naar je toekomt met een bouwplan. Wat zou je als eerste willen weten?",
+      "hints": [
+        "Denk aan de functie van het gebouw. Wat gaat er gebeuren in dit gebouw?",
+        "Hoeveel mensen moeten er gebruik van maken?",
+        "Zijn er specifieke wensen of eisen waar het gebouw aan moet voldoen?",
+        "Wat is het beschikbare budget en wanneer moet het af zijn?"
+      ],
+      "reflectieVragen": [
+        "Waarom is het belangrijk om eerst alle wensen te inventariseren?",
+        "Wat kan er misgaan als je dit niet goed doet?",
+        "Hoe kun je ervoor zorgen dat je niets vergeet?"
+      ],
+      "conclusie": "Uitstekend! Het Programma van Eisen is inderdaad de basis van elk project. Door systematisch alle wensen, eisen en randvoorwaarden te inventariseren, voorkom je verrassingen later in het proces."
+    },
+    {
+      "id": "locatie-analyse",
+      "titel": "Locatie en Omgeving Onderzoeken",
+      "werkproces": "WP02",
+      "stadium": "SO",
+      "startVraag": "Je krijgt een bouwkavel toegewezen. Wat voor onderzoek zou je doen voordat je begint met schetsen?",
+      "hints": [
+        "Wat staat er in het bestemmingsplan? Mag je bouwen wat je wilt?",
+        "Hoe zit het met de bodemgesteldheid? Is de grond stabiel?",
+        "Wat zijn de kenmerken van de omgeving? Hoe zien de buurtgebouwen eruit?",
+        "Waar ligt het noorden? Hoe valt de zon op het perceel?"
+      ],
+      "reflectieVragen": [
+        "Waarom is het bestemmingsplan zo belangrijk?",
+        "Wat kan er gebeuren als je de bodem niet onderzoekt?",
+        "Hoe beïnvloedt de omgeving je ontwerpkeuzes?"
+      ],
+      "conclusie": "Prima! Een grondige locatie-analyse voorkomt dat je een ontwerp maakt dat niet past bij de locatie of niet gerealiseerd mag worden. Het bespaart tijd en geld."
+    },
+    {
+      "id": "constructiekeuze",
+      "titel": "Constructietype kiezen",
+      "werkproces": "WP06",
+      "stadium": "VO",
+      "startVraag": "Je moet een constructietype kiezen voor een nieuw gebouw van 4 verdiepingen. Welke factoren zou je meenemen in je beslissing?",
+      "hints": [
+        "Denk aan de hoogte van het gebouw. Zijn alle constructietypes geschikt?",
+        "Wat zijn de kosten per constructietype?",
+        "Hoe snel moet het gebouw gebouwd worden?",
+        "Welke impact heeft het op het milieu?"
+      ],
+      "reflectieVragen": [
+        "Wat zijn de voor- en nadelen van hout bij deze hoogte?",
+        "Waarom zou je kiezen voor beton of staal?",
+        "Hoe weeg je kosten af tegen duurzaamheid?"
+      ],
+      "conclusie": "Goed nagedacht! De keuze voor een constructietype hangt af van vele factoren: hoogte, kosten, bouwtijd, duurzaamheid en de functie van het gebouw. Er is zelden één 'juist' antwoord."
+    },
+    {
+      "id": "plattegronden",
+      "titel": "Plattegronden Uitwerken",
+      "werkproces": "WP04",
+      "stadium": "VO",
+      "startVraag": "Je hebt een schetsontwerp en moet nu plattegronden op schaal 1:100 maken. Waar begin je mee?",
+      "hints": [
+        "Wat moet er allemaal op een plattegrond staan volgens de norm?",
+        "Hoe nauwkeurig moeten de maten zijn in deze fase?",
+        "Welke ruimtes zijn het belangrijkst om eerst uit te werken?",
+        "Hoe toon je wanden, deuren en ramen op een technische tekening?"
+      ],
+      "reflectieVragen": [
+        "Waarom werk je op schaal 1:100 in deze fase?",
+        "Wat is het verschil tussen een schetsplattegrond en een technische plattegrond?",
+        "Hoe zorg je ervoor dat alle verdiepingen op elkaar aansluiten?"
+      ],
+      "conclusie": "Mooi! Een goede plattegrond is technisch correct, compleet en leesbaar. Het is de basis voor alle verdere uitwerkingen en communicatie met opdrachtgever en aannemers."
+    },
+    {
+      "id": "isolatie",
+      "titel": "Isolatieniveau bepalen",
+      "werkproces": "WP09",
+      "stadium": "DO",
+      "startVraag": "Een opdrachtgever wil zijn energiekosten laag houden. Hoe zou je hem adviseren over isolatie?",
+      "hints": [
+        "Wat is het verschil tussen basis, gemiddeld en hoge isolatie?",
+        "Wat zijn de kosten van betere isolatie?",
+        "Hoeveel bespaar je per jaar aan energiekosten?",
+        "Wat is de terugverdientijd?"
+      ],
+      "reflectieVragen": [
+        "Waarom is het slim om te investeren in goede isolatie?",
+        "Welke andere voordelen heeft goede isolatie naast kostenbesparing?",
+        "Hoe leg je dit uit aan een opdrachtgever die alleen naar de bouwkosten kijkt?"
+      ],
+      "conclusie": "Prima redenering! Goede isolatie kost meer bij de bouw, maar bespaart jarenlang op energiekosten. Daarnaast verhoogt het het wooncomfort en de waarde van het gebouw."
+    },
+    {
+      "id": "bouwvergunning",
+      "titel": "Bouwvergunning aanvragen",
+      "werkproces": "WP08",
+      "stadium": "DO",
+      "startVraag": "In welke fase vraag je de bouwvergunning aan en waarom juist dan?",
+      "hints": [
+        "Denk aan wat de gemeente nodig heeft om een vergunning te verlenen.",
+        "Moeten de tekeningen al volledig gedetailleerd zijn?",
+        "Wat moet er al definitief zijn vastgelegd?",
+        "Kan het ontwerp nog veranderen na vergunningverlening?"
+      ],
+      "reflectieVragen": [
+        "Waarom niet eerder de vergunning aanvragen?",
+        "Wat zijn de risico's van te laat aanvragen?",
+        "Welke documenten heb je nodig voor een complete aanvraag?"
+      ],
+      "conclusie": "Correct! De bouwvergunning wordt aangevraagd tijdens het Definitief Ontwerp. Dan zijn alle hoofdzaken vastgelegd, maar kunnen details nog worden uitgewerkt."
+    },
+    {
+      "id": "installaties",
+      "titel": "Installaties Ontwerpen",
+      "werkproces": "WP11",
+      "stadium": "TO",
+      "startVraag": "Een opdrachtgever wil duurzame installaties. Welke systemen zou je overwegen en waarom?",
+      "hints": [
+        "Denk aan verwarming: warmtepomp, stadsverwarming, of gas?",
+        "Wat zijn de mogelijkheden voor duurzame elektriciteit?",
+        "Hoe zorg je voor goede ventilatie en binnenklimaat?",
+        "Welke rol speelt isolatie bij de installatiekeuze?"
+      ],
+      "reflectieVragen": [
+        "Wat zijn de kosten en baten van een warmtepomp?",
+        "Hoe belangrijk is ventilatie voor gezondheid en energiebesparing?",
+        "Waarom moet je installaties en constructie op elkaar afstemmen?"
+      ],
+      "conclusie": "Sterk! Moderne installaties zijn complex maar cruciaal voor comfort, gezondheid en energieprestatie. Keuzes in deze fase bepalen de exploitatiekosten voor decennia."
+    },
+    {
+      "id": "werktekeningen",
+      "titel": "Werktekeningen Maken",
+      "werkproces": "WP14",
+      "stadium": "UO",
+      "startVraag": "Wat is het verschil tussen een ontwerptekening en een werktekening?",
+      "hints": [
+        "Voor wie zijn werktekeningen bedoeld?",
+        "Welk detailniveau heeft een aannemer nodig om te kunnen bouwen?",
+        "Welke informatie moet echt op de tekening staan?",
+        "Op welke schaal maak je werktekeningen meestal?"
+      ],
+      "reflectieVragen": [
+        "Wat gebeurt er als werktekeningen onduidelijk zijn?",
+        "Waarom zijn maatvoeringen zo belangrijk op werktekeningen?",
+        "Hoe voorkom je fouten tijdens de uitvoering?"
+      ],
+      "conclusie": "Prima! Werktekeningen zijn de instructies voor de bouwplaats. Ze moeten duidelijk, compleet en uitvoerbaar zijn. Fouten hier leiden tot kostbare bouwfouten."
+    },
+    {
+      "id": "oplevering-controle",
+      "titel": "Oplevering en Controle",
+      "werkproces": "WP17",
+      "stadium": "OPLEV",
+      "startVraag": "Het gebouw is bijna klaar. Wat controleer je voordat je oplevert aan de opdrachtgever?",
+      "hints": [
+        "Zijn alle werkzaamheden volgens contract uitgevoerd?",
+        "Werken alle installaties zoals bedoeld?",
+        "Zijn er nog zichtbare gebreken of beschadigingen?",
+        "Wat doe je met de gevonden punten?"
+      ],
+      "reflectieVragen": [
+        "Waarom is een grondige pre-oplevering belangrijk?",
+        "Wat zijn de gevolgen als je gebreken niet opmerkt?",
+        "Hoe ga je om met meningsverschillen over kwaliteit?"
+      ],
+      "conclusie": "Uitstekend! Een zorgvuldige oplevering beschermt zowel de opdrachtgever als de aannemer. Een puntlijst zorgt ervoor dat alle gebreken worden hersteld."
+    },
+    {
+      "id": "onderhoud",
+      "titel": "Onderhoudsplan opstellen",
+      "werkproces": "WP20",
+      "stadium": "ONDER",
+      "startVraag": "Waarom zou je al tijdens het ontwerp nadenken over toekomstig onderhoud?",
+      "hints": [
+        "Denk aan de levensduur van verschillende materialen.",
+        "Hoe bereikbaar zijn onderdelen die onderhoud nodig hebben?",
+        "Wat kost onderhoud over 10, 20, 30 jaar?",
+        "Kun je materialen kiezen die minder onderhoud vragen?"
+      ],
+      "reflectieVragen": [
+        "Wat gebeurt er als je geen rekening houdt met onderhoud?",
+        "Hoe zou je een opdrachtgever overtuigen om te investeren in onderhoudsarm materiaal?",
+        "Welke onderdelen van een gebouw vragen het meeste onderhoud?"
+      ],
+      "conclusie": "Uitstekend inzicht! Door al in de ontwerpfase rekening te houden met onderhoud, bespaar je de eigenaar veel kosten en zorgen in de toekomst."
+    },
+    {
+      "id": "bbl",
+      "titel": "Besluit Bouwwerken Leefomgeving (BBL)",
+      "werkproces": "Algemeen",
+      "stadium": "Algemeen",
+      "startVraag": "Het BBL is sinds 2024 van kracht. Wat is het doel van deze wet en waarom is het belangrijk voor bouwkundigen?",
+      "hints": [
+        "Het BBL vervangt het Bouwbesluit. Wat is er veranderd?",
+        "Denk aan vergunningvrij bouwen. Wat mag wel en niet zonder vergunning?",
+        "Welke eisen stelt het BBL aan veiligheid, gezondheid en bruikbaarheid?",
+        "Hoe verhouden landelijke regels zich tot lokale regels?"
+      ],
+      "reflectieVragen": [
+        "Waarom is het belangrijk om het BBL goed te kennen?",
+        "Wat zijn de gevolgen als je bouwen zonder de juiste vergunning?",
+        "Hoe gebruik je het BBL in je dagelijkse werk als bouwkundige?",
+        "Wat is het verschil tussen het omgevingsplan en het BBL?"
+      ],
+      "conclusie": "Geweldig! Het BBL is het juridisch kader voor bouwen in Nederland. Kennis hiervan is essentieel voor elke bouwprofessional. Het bepaalt wat mag, wat moet en hoe je projecten goed en legaal realiseert."
+    }
+  ]
+}
