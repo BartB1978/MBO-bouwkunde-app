@@ -81,7 +81,7 @@ function InteractieveModule() {
         }}>
           <p style={{ color: 'var(--text-primary)', lineHeight: 1.6 }}>
             Gebruik de onderstaande controls om een gebouw te ontwerpen. Pas parameters aan en zie direct
-            het effect op kosten, duurzaamheid en haalbaarheid. 1Jouw instellingen worden automatisch opgeslagen.
+            het effect op kosten, duurzaamheid en haalbaarheid. Jouw instellingen worden automatisch opgeslagen.
           </p>
         </div>
 
