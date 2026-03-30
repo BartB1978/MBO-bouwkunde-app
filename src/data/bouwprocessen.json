@@ -123,7 +123,7 @@
   "werkprocessen": [
     {
       "id": "WP01",
-      "naam": "Programma van Eisen opstellen",
+      "naam": "Maak een Schets Ontwerp",
       "stadiumId": "SO",
       "volgnummer": 1,
       "beschrijving": "Het inventariseren en vastleggen van alle wensen, eisen en randvoorwaarden van de opdrachtgever voor het bouwproject.",
@@ -131,7 +131,6 @@
       "activiteiten": [
         "Gesprekken met opdrachtgever",
         "Inventariseren functionele eisen",
-        "Bepalen budget en planning",
         "Vastleggen technische randvoorwaarden"
       ]
     },
