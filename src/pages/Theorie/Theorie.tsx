@@ -25,11 +25,11 @@ function Theorie() {
           color: 'var(--text-primary)',
           marginBottom: '0.75rem'
         }}>
-          Over Theorie
+          Over Opdrachten en Theorie
         </h3>
         <p style={{ color: 'var(--text-secondary)', lineHeight: 1.6 }}>
-          Hier vind je de theoretische achtergrond van alle werkprocessen in de bouwkunde.
-          Selecteer een werkproces om de bijbehorende theorie te bestuderen.
+          Hier vind je de level-opdrachten per werkproces en de theoretische achtergrond van alle werkprocessen in de bouwkunde.
+          Selecteer een werkproces om de level-opdrachten en de bijbehorende theorie te bestuderen.
         </p>
       </div>
 
