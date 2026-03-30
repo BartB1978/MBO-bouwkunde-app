@@ -149,8 +149,8 @@
     },
     {
       "id": "WP03",
-      "naam": "Conceptschetsen maken",
-      "stadiumId": "SO",
+      "naam": "Voer een Vergunningscheck uit",
+      "stadiumId": "VO",
       "volgnummer": 3,
       "beschrijving": "Het creëren van eerste schetsen en visualisaties van mogelijke ontwerprichtingen en concepten.",
       "icon": "✏️",
@@ -163,7 +163,7 @@
     },
     {
       "id": "WP04",
-      "naam": "Plattegronden uitwerken",
+      "naam": "Voer een bouwbesluittoetsing uit",
       "stadiumId": "VO",
       "volgnummer": 4,
       "beschrijving": "Gedetailleerde uitwerking van plattegronden met exacte maten, ruimte-indelingen en functionele zones.",
@@ -177,7 +177,7 @@
     },
     {
       "id": "WP05",
-      "naam": "Gevels en doorsneden tekenen",
+      "naam": "Bepaal de bouwmethode en materialen",
       "stadiumId": "VO",
       "volgnummer": 5,
       "beschrijving": "Uitwerking van gevels en doorsneden om de verticale opbouw en uitstraling van het gebouw te bepalen.",
@@ -191,8 +191,8 @@
     },
     {
       "id": "WP06",
-      "naam": "Constructieprincipe bepalen",
-      "stadiumId": "VO",
+      "naam": "Werk het VO uit naar het DO",
+      "stadiumId": "DO",
       "volgnummer": 6,
       "beschrijving": "Kiezen van het draagconstructieprincipe en globale opzet van de constructie.",
       "icon": "🏗️",
@@ -205,7 +205,7 @@
     },
     {
       "id": "WP07",
-      "naam": "Definitieve tekeningen maken",
+      "naam": "Bepaal globaal de kosten",
       "stadiumId": "DO",
       "volgnummer": 7,
       "beschrijving": "Alle tekeningen definitief uitwerken volgens normen en richtlijnen voor de vergunningaanvraag.",
@@ -219,7 +219,7 @@
     },
     {
       "id": "WP08",
-      "naam": "Bouwvergunning aanvragen",
+      "naam": "Maak een bouwfysisch rapport",
       "stadiumId": "DO",
       "volgnummer": 8,
       "beschrijving": "Het indienen van de vergunningaanvraag bij de gemeente met alle benodigde documenten en tekeningen.",
@@ -233,7 +233,7 @@
     },
     {
       "id": "WP09",
-      "naam": "Materiaalkeuze en specificaties",
+      "naam": "Maak een constructief rapport",
       "stadiumId": "DO",
       "volgnummer": 9,
       "beschrijving": "Definitieve keuze van bouwmaterialen en het opstellen van gedetailleerde specificaties.",
@@ -247,7 +247,7 @@
     },
     {
       "id": "WP10",
-      "naam": "Constructieve berekeningen",
+      "naam": "Maak een Technisch Ontwerp",
       "stadiumId": "TO",
       "volgnummer": 10,
       "beschrijving": "Gedetailleerde berekeningen van de draagconstructie volgens geldende normen en regelgeving.",
@@ -261,7 +261,7 @@
     },
     {
       "id": "WP11",
-      "naam": "Installaties ontwerpen",
+      "naam": "Maak een bestektekst / technische omschrijving",
       "stadiumId": "TO",
       "volgnummer": 11,
       "beschrijving": "Ontwerp van alle gebouwinstallaties zoals elektra, sanitair, verwarming en ventilatie.",
@@ -275,7 +275,7 @@
     },
     {
       "id": "WP12",
-      "naam": "Detailtekeningen maken",
+      "naam": "Bereid een vergunningsaanvraag voor of maak een melding",
       "stadiumId": "TO",
       "volgnummer": 12,
       "beschrijving": "Uitwerking van constructieve details en knooppunten op grote schaal.",
@@ -289,7 +289,7 @@
     },
     {
       "id": "WP13",
-      "naam": "Bestek en werkbeschrijving",
+      "naam": "Maak een werktekening",
       "stadiumId": "UO",
       "volgnummer": 13,
       "beschrijving": "Opstellen van het bestek met gedetailleerde werkbeschrijvingen voor aannemers.",
@@ -303,7 +303,7 @@
     },
     {
       "id": "WP14",
-      "naam": "Werktekeningen produceren",
+      "naam": "Maak een detailtekening",
       "stadiumId": "UO",
       "volgnummer": 14,
       "beschrijving": "Het maken van uitvoeringstekeningen die direct op de bouwplaats gebruikt kunnen worden.",
@@ -317,7 +317,7 @@
     },
     {
       "id": "WP15",
-      "naam": "Planning en fasering",
+      "naam": "Maak een uittrekstaat",
       "stadiumId": "UO",
       "volgnummer": 15,
       "beschrijving": "Opstellen van een gedetailleerde bouwplanning en fasering van werkzaamheden.",
@@ -331,7 +331,7 @@
     },
     {
       "id": "WP16",
-      "naam": "Bouwbegeleiding",
+      "naam": "Maak een aanvraag voor een prijsopgave en kies een onderaannemer",
       "stadiumId": "UO",
       "volgnummer": 16,
       "beschrijving": "Begeleiding van de uitvoering op de bouwplaats en toezicht op de kwaliteit.",
@@ -345,8 +345,8 @@
     },
     {
       "id": "WP17",
-      "naam": "Oplevering en eindcontrole",
-      "stadiumId": "OPLEV",
+      "naam": "Maak een werkbegroting",
+      "stadiumId": "UO",
       "volgnummer": 17,
       "beschrijving": "Finale controle en officiële oplevering van het voltooide bouwwerk aan de opdrachtgever.",
       "icon": "✅",
@@ -359,8 +359,8 @@
     },
     {
       "id": "WP18",
-      "naam": "Documentatie en as-built",
-      "stadiumId": "OPLEV",
+      "naam": "Maak een uitvoeringsplanning",
+      "stadiumId": "UO",
       "volgnummer": 18,
       "beschrijving": "Verzamelen en overdragen van alle documentatie inclusief as-built tekeningen.",
       "icon": "📚",
@@ -373,8 +373,8 @@
     },
     {
       "id": "WP19",
-      "naam": "Gebruikersinstructie",
-      "stadiumId": "OPLEV",
+      "naam": "Maak een tekening voor de bouwplaatsinrichting",
+      "stadiumId": "UO",
       "volgnummer": 19,
       "beschrijving": "Instructie en overdracht aan de gebruiker over bediening en onderhoud van het gebouw.",
       "icon": "👥",
@@ -387,8 +387,8 @@
     },
     {
       "id": "WP20",
-      "naam": "Onderhoudsplan opstellen",
-      "stadiumId": "ONDER",
+      "naam": "Maak een V&G plan",
+      "stadiumId": "UO",
       "volgnummer": 20,
       "beschrijving": "Opstellen van een meerjarig onderhoudsplan voor het gebouw.",
       "icon": "📋",
@@ -401,10 +401,10 @@
     },
     {
       "id": "WP21",
-      "naam": "Inspectie en onderhoud uitvoeren",
+      "naam": "Maak een inspectierapport en MJO(D)P",
       "stadiumId": "ONDER",
       "volgnummer": 21,
-      "beschrijving": "Uitvoeren van periodieke inspecties en onderhoudswerkzaamheden.",
+      "beschrijving": "Uitvoeren van periodieke inspecties en onderhoudswerkzaamheden en het opstellen van een MeerJarenOnderhoudsPlan.",
       "icon": "🔨",
       "activiteiten": [
         "Jaarlijkse inspectie",
