@@ -8,8 +8,8 @@ function Theorie() {
 
   return (
     <PageContainer
-      title="Theorie"
-      subtitle="Leer de achterliggende theorie per werkproces"
+      title="Opdrachten en Theorie"
+      subtitle="Bekijk de opdrachten per level en Leer de achterliggende theorie per werkproces"
       icon="📚"
     >
       <div style={{
