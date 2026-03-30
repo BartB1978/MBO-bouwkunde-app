@@ -131,9 +131,10 @@
       "beschrijving": "Het inventariseren en vastleggen van alle wensen, eisen en randvoorwaarden van de opdrachtgever voor het bouwproject.",
       "icon": "📝",
       "activiteiten": [
-        "Gesprekken met opdrachtgever",
-        "Inventariseren functionele eisen",
-        "Vastleggen technische randvoorwaarden"
+        "Opstellen Programma van Eisen (PvE)",
+        "Inventariseren functionele eisen aan de hand van de BBL",
+        "Opstellen diverse schetsen",
+        "Benoemen voor- en nadelen per schetsvariant"
       ]
     },
     {
@@ -141,13 +142,12 @@
       "naam": "Werk een schetsontwerp uit tot een Voorlopig ontwerp",
       "stadiumId": "VO",
       "volgnummer": 2,
-      "beschrijving": "Onderzoek naar de bouwlocatie, omgeving, bestemmingsplan en andere relevante aspecten die het ontwerp beïnvloeden.",
+      "beschrijving": "Aan de hand van de gemaakte schetsontwerpen en de voor- en nadelen per schetsvariant wordt een Voorlopig Ontwerp gekozen.",
       "icon": "🗺️",
       "activiteiten": [
-        "Bestuderen bestemmingsplan",
-        "Omgevingsanalyse",
-        "Bodemonderzoek",
-        "Bereikbaarheid en infrastructuur"
+        "Voor- en nadelen tegen elkaar afwegen",
+        "Keuzes motiveren",
+        "Presenteren Voorlopig Ontwerp"
       ]
     },
     {
@@ -155,7 +155,12 @@
       "naam": "Voer een Vergunningscheck uit",
       "stadiumId": "VO",
       "volgnummer": 3,
-      "beschrijving": "Het creëren van eerste schetsen en visualisaties van mogelijke ontwerprichtingen en concepten.",
+      "beschrijving": "Aan de hand van omgevingsplannen opzoeken, projectactiviteiten bepalen, projectgegevens 
+vaststellen, overheidsplannen lezen en bepaling of de bouw OPA
+vergunningsvrij is en/of BA-vergunningsvrij is en kan er vastgesteld worden of er sprake is van een 
+buitenplanse omgevingsactiviteit. Deze vaardigheden resulteren in een correct ingevulde 
+vergunningscheck en een vergunningsaanvraag inclusief begeleidend schrijven en de correcte 
+bijlagen.",
       "icon": "✏️",
       "activiteiten": [
         "Vrije schetsen maken",
