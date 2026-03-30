@@ -85,7 +85,7 @@ const tools: ToolCard[] = [
     color: '#f97316'
   },
   {
-    title: 'Theoriepagina',
+    title: 'Opdrachten en Theorie',
     description: 'Lees en leer',
     path: '/theorie',
     icon: '📚',
