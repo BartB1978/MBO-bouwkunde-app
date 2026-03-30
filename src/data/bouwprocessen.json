@@ -28,8 +28,8 @@
       "belangrijkePunten": [
         "Uitwerking plattegronden en gevels",
         "Materiaalkeuzes en constructieprincipes",
-        "Stedenbouwkundige inpassing",
-        "Gedetailleerde kostenraming",
+        "BBL-toetsing",
+        "Vergunningschceck",
         "Overleg met gemeente en instanties"
       ]
     },
@@ -45,10 +45,10 @@
       "belangrijkePunten": [
         "Definitieve tekeningen en detaillering",
         "Volledige materiaalbeschrijvingen",
-        "Constructieve berekeningen",
-        "Installatieontwerp",
-        "Bouwvergunning aanvraag"
-      ]
+        "Bepaling globale kosten",
+        "Bepalen Isolatie",
+        "Bepalen Constructieve opbouw"
+        ]
     },
     {
       "id": "TO",
@@ -60,11 +60,10 @@
       "volgnummer": 4,
       "doel": "Technische uitwerking voor uitvoering gereed maken",
       "belangrijkePunten": [
+        "Constructieve plattegronden en schema's",
         "Constructieve details en knooppunten",
         "Installatietechnische uitwerking",
-        "Bouwfysische berekeningen",
-        "Energieprestatieberekening",
-        "Bestekstekeningen voorbereiden"
+        "Bouwvergunning aanvraag"
       ]
     },
     {
@@ -78,10 +77,13 @@
       "doel": "Directe bouwgerichte tekeningen en instructies voor uitvoering",
       "belangrijkePunten": [
         "Werktekeningen en details",
+        "Hoeveelheden en Begrotingen",
         "Materiaalbestellingen",
         "Planning en fasering",
         "Werkvoorbereiding",
-        "Uitvoeringsspecificaties"
+        "Onderaanneming",
+        "Veiligheid op de bouwplaats",
+        "Bouwplaatsmanagement"
       ]
     },
     {
@@ -115,6 +117,7 @@
         "Inspectierapporten",
         "Preventief onderhoud",
         "Correctief onderhoud",
+        "Verduurzaming",
         "Levensduurverlenging"
       ]
     }
