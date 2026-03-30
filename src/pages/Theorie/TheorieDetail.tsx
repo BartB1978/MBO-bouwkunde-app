@@ -177,6 +177,87 @@ function TheorieDetail() {
 
         <div style={{
           padding: '1.5rem',
+          backgroundColor: 'var(--bg-secondary)',
+          borderRadius: 'var(--radius-lg)',
+          marginBottom: '2rem'
+        }}>
+          <h2 style={{
+            fontSize: '1.5rem',
+            fontWeight: 700,
+            color: 'var(--text-primary)',
+            marginBottom: '1rem'
+          }}>
+            Levels bij dit werkproces
+          </h2>
+          <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '0.75rem'
+          }}>
+            {[
+              { id: 'basis', naam: 'Level Basis', url: '#' },
+              { id: 'level1', naam: 'Level 1', url: '#' },
+              { id: 'level2', naam: 'Level 2', url: '#' },
+              { id: 'level3', naam: 'Level 3', url: '#' },
+              { id: 'level4', naam: 'Level 4', url: '#' }
+            ].map((level) => (
+              <a
+                key={level.id}
+                href={level.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  padding: '1rem 1.25rem',
+                  backgroundColor: 'var(--bg-primary)',
+                  borderRadius: 'var(--radius-md)',
+                  textDecoration: 'none',
+                  color: 'var(--text-primary)',
+                  border: '1px solid rgba(0, 0, 0, 0.1)',
+                  transition: 'all 0.2s ease',
+                  cursor: 'pointer'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.backgroundColor = 'rgba(59, 130, 246, 0.05)';
+                  e.currentTarget.style.borderColor = 'var(--primary-color)';
+                  e.currentTarget.style.transform = 'translateX(4px)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.backgroundColor = 'var(--bg-primary)';
+                  e.currentTarget.style.borderColor = 'rgba(0, 0, 0, 0.1)';
+                  e.currentTarget.style.transform = 'translateX(0)';
+                }}
+              >
+                <span style={{
+                  fontSize: '1rem',
+                  fontWeight: 600,
+                  color: 'var(--text-primary)'
+                }}>
+                  {level.naam}
+                </span>
+                <span style={{
+                  fontSize: '1.25rem',
+                  color: 'var(--primary-color)'
+                }}>
+                  →
+                </span>
+              </a>
+            ))}
+          </div>
+          <p style={{
+            marginTop: '1rem',
+            color: 'var(--text-secondary)',
+            fontSize: '0.875rem',
+            fontStyle: 'italic'
+          }}>
+            Klik op een level om het bijbehorende document te openen (SharePoint)
+          </p>
+        </div>
+
+        <div style={{
+          padding: '1.5rem',
           backgroundColor: 'rgba(59, 130, 246, 0.1)',
           borderRadius: 'var(--radius-lg)',
           borderLeft: '4px solid var(--primary-color)'
