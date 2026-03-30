@@ -28,7 +28,7 @@ const navItems: NavItem[] = [
 const toolItems: NavItem[] = [
   { path: '/interactieve-module', label: 'Interactieve Module', icon: '🎮' },
   { path: '/quiz', label: 'Quiz Module', icon: '❓' },
-  { path: '/theorie', label: 'Theorie', icon: '📚' },
+  { path: '/theorie', label: 'Opdrachten en Theorie', icon: '📚' },
   { path: '/teacherbot', label: 'Teacherbot', icon: '🤖' },
 ]
 
