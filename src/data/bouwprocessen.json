@@ -135,8 +135,8 @@
     },
     {
       "id": "WP02",
-      "naam": "Locatie- en omgevingsanalyse",
-      "stadiumId": "SO",
+      "naam": "Werk een schetsontwerp uit tot een Voorlopig ontwerp",
+      "stadiumId": "VO",
       "volgnummer": 2,
       "beschrijving": "Onderzoek naar de bouwlocatie, omgeving, bestemmingsplan en andere relevante aspecten die het ontwerp beïnvloeden.",
       "icon": "🗺️",
